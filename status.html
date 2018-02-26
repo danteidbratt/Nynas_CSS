@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/general.css">
+    <title>Nickstabadet</title>
+</head>
+
+<body>
+    <header id="main_header">
+        <div>
+            <h1>Nickstabadet</h1>
+            <p>Ett soligt sommarbad</p>
+        </div>
+    </header>
+    <nav id="main_navigator">
+        <ul>
+            <li class="active_link">
+                <a href="index.html">Hemma</a>
+            </li>
+            <li>
+                <a href="contact.html">Kontakt</a>
+            </li>
+            <li>
+                <a href="status.html">Väder</a>
+            </li>
+            <li id="back_link">
+                <a href="">Tillbaks</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <header>
+            <h2>Vädret på Nicksta</h2>
+        </header>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Klocka</th>
+                    <th>Väder</th>
+                    <th>Värme</th>
+                    <th>Vind</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>08:00</td>
+                    <td>Moln</td>
+                    <td>16</td>
+                    <td>2m/s</td>
+                </tr>
+
+                <tr>
+                    <td>10:00</td>
+                    <td>Moln</td>
+                    <td>18</td>
+                    <td>4m/s</td>
+                </tr>
+
+                <tr>
+                    <td>12:00</td>
+                    <td>Sol</td>
+                    <td>21</td>
+                    <td>1m/s</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <header>
+            <h2>Åker tågen?</h2>
+        </header>
+        <form>
+            <div>
+                <label for="from_location">Jag åker ifrån...</label>
+                <input type="text" id="from_location" maxlength=25>
+            </div>
+            <button type="submit">Skicka</button>
+        </form>
+        <table>
+            <caption>Åker från</caption>
+            <thead>
+                <tr>
+                    <th>Nr</th>
+                    <th>Avgår</th>
+                    <th>Ankommer</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>42</td>
+                    <td>10:25</td>
+                    <td>11:23</td>
+                </tr>
+
+                <tr>
+                    <td>42</td>
+                    <td>11:25</td>
+                    <td>12:23</td>
+                </tr>
+
+                <tr>
+                    <td>42</td>
+                    <td>12:25</td>
+                    <td>13:23</td>
+                </tr>
+            </tbody>
+        </table>
+        Inga problem i trafiken
+    </section>
+
+    <footer id="main_footer">
+        <p>
+            Vill du veta mer? Skicka e-post till
+            <a href="mailto:asd@123.com">Dante Lundgren</a>
+        </p>
+    </footer>
+</body>
+
+</html>

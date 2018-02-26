@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/general.css">
+	<title>Nickstabadet</title>
+</head>
+
+<body>
+	<header id="main_header">
+		<h1>Nickstabadet</h1>
+		<p>Ett soligt sommarbad</p>
+	</header>
+	<nav id="main_navigator">
+		<ul>
+			<li>
+				<a href="index.html">Hemma</a>
+			</li>
+			<li id="active_link">
+				<a href="contact.html">Kontakt</a>
+			</li>
+			<li>
+				<a href="status.html">Väder</a>
+			</li>
+			<li id="back_link">
+				<a href="index.html">Tillbaks</a>
+			</li>
+		</ul>
+	</nav>
+
+	<section id="contact_section" class="container">
+		<header>
+			<h2>Lämna dina synpunkter här!</h2>
+		</header>
+		<form>
+
+			<div>
+				<label for="headline_field">Rubrik</label>
+				<input type="text" id="headline_field" placeholder="Rubrik" maxlength="30">
+			</div>
+
+			<div>
+				<label for="description_field">Beskrivning </label>
+				<textarea name="description" id="description_field" cols="20" rows="3" maxlength="100"></textarea>
+				<label>Max 100 tecken</label>
+			</div>
+
+			<div>
+				<label for="topic_field">Ärende</label>
+				<select name="topics" id="topic_field">
+                    <option value="beach">Strand</option>
+                    <option value="camping">Camping</option>
+                    <option value="other">Övrigt</option>
+                </select>
+			</div>
+
+			<div>
+				<label>Vill du få svar på din synpunkt?</label>
+			</div>
+			<div id="radio_div">
+				<label class="homo" for="reply_yes">Ja</label>
+				<input name="reply" type="radio" id="reply_yes" value="yes">
+				<label class="homo" for="reply_no">Nej</label>
+				<input name="reply" type="radio" id="reply_no" value="no">
+			</div>
+
+			<div id="email_div">
+				<label for="email_field">E-Mail</label>
+				<input type="text" placeholder="example@email.com" id="email_field">
+			</div>
+
+			<div>
+				<button type="submit">Skicka</button>
+			</div>
+		</form>
+	</section>
+
+	<footer id="main_footer">
+		<p>Vill du veta mer? Skicka e-post till
+			<a href="mailto:asd@123.com">Dante Lundgren</a></p>
+	</footer>
+
+</body>
+</html>
